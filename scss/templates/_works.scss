@@ -1,0 +1,194 @@
+.works {
+    margin: 0 auto;
+    max-width: 1170px;
+    background-color: #ffffff;
+
+    h5 {
+        padding: 130px 20px 0 20px;
+        margin: 0;
+        text-align: center;
+        @include Font(38px, 700, #191919);
+        font-family: $fMonts;
+        text-transform: uppercase;
+    }
+
+    p {
+        @include Font(17, 400, #616161);
+        font-family: $fMerriW;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 17px 20px 0 20px;
+        margin: 0;
+    }
+
+    .images {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-top: 125px;
+        // cursor: pointer;
+
+        //100% увеличение image!!
+        // img {
+        //     padding-bottom: 15px;
+        // }
+
+        // .one:hover {
+        //     width: 100%;
+        //     height: 100%;
+        // }
+
+        .image {
+            width: 370px;
+            height: 360px;
+            background-image: url(/image/works/photo1.png);
+            background-repeat: no-repeat;
+            transition: .3s;
+            display: flex;
+            background-position: center;
+            background-size: cover;
+            margin: 10px 10px;
+        }
+
+        .image-item {
+            width: 100%;
+            height: 100%;
+            background-color: #209dee;
+            opacity: 0;
+            transition: .3s;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .image:hover .image-item {
+            opacity: 1;
+            cursor: pointer;
+        }
+
+        .image2 {
+            width: 370px;
+            height: 360px;
+            background-image: url(/image/works/photo2.png);
+            background-repeat: no-repeat;
+            transition: .3s;
+            display: flex;
+            background-position: center;
+            background-size: cover;
+            margin: 10px 10px;
+        }
+
+        .image2:hover .image-item {
+            opacity: 1;
+            cursor: pointer;
+        }
+
+        .image3 {
+            width: 370px;
+            height: 360px;
+            background-image: url(/image/works/photo3.png);
+            background-repeat: no-repeat;
+            transition: .3s;
+            display: flex;
+            background-position: center;
+            background-size: cover;
+            margin: 10px 10px;
+        }
+
+        .image3:hover .image-item {
+            opacity: 1;
+            cursor: pointer;
+        }
+
+        .image4 {
+            width: 370px;
+            height: 360px;
+            background-image: url(/image/works/photo4.png);
+            background-repeat: no-repeat;
+            transition: .3s;
+            display: flex;
+            background-position: center;
+            background-size: cover;
+            margin: 10px 10px;
+        }
+
+        .image4:hover .image-item {
+            opacity: 1;
+            cursor: pointer;
+        }
+
+        .image5 {
+            width: 370px;
+            height: 360px;
+            background-image: url(/image/works/photo5.png);
+            background-repeat: no-repeat;
+            transition: .3s;
+            display: flex;
+            background-position: center;
+            background-size: cover;
+            margin: 10px 10px;
+        }
+
+        .image5:hover .image-item {
+            opacity: 1;
+            cursor: pointer;
+        }
+
+        .image6 {
+            width: 370px;
+            height: 360px;
+            background-image: url(/image/works/photo6.png);
+            background-repeat: no-repeat;
+            transition: .3s;
+            display: flex;
+            background-position: center;
+            background-size: cover;
+            margin: 10px 10px;
+        }
+
+        .image6:hover .image-item {
+            opacity: 1;
+            cursor: pointer;
+        }
+    }
+}
+
+@media(max-width:1200px) {
+
+    .works .images {
+        justify-content: center;
+    }
+}
+
+@media(max-width:425px) {
+
+    .works .images .image {
+        width: 314.5px;
+        height: 306px;
+    }
+
+    .works .images .image2 {
+        width: 314.5px;
+        height: 306px;
+    }
+
+    .works .images .image3 {
+        width: 314.5px;
+        height: 306px;
+    }
+
+    .works .images .image4 {
+        width: 314.5px;
+        height: 306px;
+    }
+
+    .works .images .image5 {
+        width: 314.5px;
+        height: 306px;
+    }
+
+    .works .images .image6 {
+        width: 314.5px;
+        height: 306px;
+    }
+}

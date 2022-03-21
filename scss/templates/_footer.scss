@@ -1,0 +1,321 @@
+footer {
+    height: 1016px;
+    background-color: #ffffff;
+
+    .contact {
+        min-height: 714px;
+        background-image: url(/image/footer/Фон.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        // opacity: 0.3;
+        margin: 0 auto;
+
+        .shell {
+            margin: 0 auto;
+            padding-top: 175px;
+            max-width: 1170px;
+            display: flex;
+            flex-wrap: wrap;
+
+            .message {
+                // background-color: rgba(17, 0, 255, 0.8);
+                width: 614px;
+                height: 460px;
+                margin: 10px;
+                display: flex;
+                flex-direction: column;
+                background-color: #4b5a63;
+
+                input {
+                    margin: 0 auto;
+                    width: 550px;
+                    margin-top: 20px;
+                    // color: #b7bdc1;
+                    font-family: $fRale;
+                    @include Font(15, 400, #bec2c4);
+                    background-color: #4b5a63;
+                    background: inherit;
+                    padding-top: 17px;
+                    padding-left: 5px;
+                    padding-bottom: 17px;
+                    border: 2px solid #b7bdc1;
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                }
+
+                input:nth-child(2) {
+                    margin-top: 12px;
+                }
+
+                input:nth-child(3) {
+                    margin-top: 12px;
+                }
+
+                // input:nth-child(4) {
+                //     margin-top: 12px;
+                //     padding-bottom: 92px;
+                // }
+
+                .name2 {
+                    margin: 0 auto;
+                    width: 550px;
+                    margin-top: 30px;
+                    // color: #b7bdc1;
+                    font-family: $fRale;
+                    @include Font(15, 400, #bec2c4);
+                    background-color: #4b5a63;
+                    background: inherit;
+                    padding-bottom: 42px;
+                    border: 2px solid #b7bdc1;
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                }
+
+                button {
+
+                    background-color: #6eeee4;
+                    border-radius: 2px;
+                    border: none;
+                    height: 53px;
+                    width: 244px;
+                    text-transform: uppercase;
+                    opacity: 1;
+                    margin-top: 30px;
+                    margin-left: 30px;
+                    font-family: $fMonts;
+                    @include Font(18px, 400, #161b1e);
+
+                    a {
+                        text-decoration: none;
+                        color: #161b1e;
+                    }
+                }
+            }
+
+            .map_address {
+                // background-color: rgba(17, 0, 255, 0.8);
+                background-color: #4b5a63;
+                width: 500px;
+                height: 460px;
+                margin: 10px;
+
+                p {
+                    @include Font(15px, 400, #d4d6d8);
+                    font-family: $fRale;
+                    margin-left: 30px;
+                    margin-top: 26px;
+                    line-height: 13px;
+                }
+
+                p:nth-child(2) {
+                    margin-top: 13px;
+                }
+
+                p:nth-child(3) {
+                    margin-top: 16px;
+                }
+
+                p:nth-child(4) {
+                    margin-top: 16px;
+                }
+
+                p:nth-child(6) {
+                    margin-top: 0;
+
+                    a {
+                        text-decoration: none;
+                    }
+                }
+
+                p:nth-child(7) {
+                    margin-top: 1px;
+
+                    a {
+                        text-decoration: none;
+                    }
+                }
+
+                .map {
+                    margin-left: 22px;
+
+                    img {
+                        width: 455px;
+                        height: 224px;
+                    }
+                }
+
+                // .map:hover {
+                //     background-
+                //     // background-image: url(/www.google.by/maps/place/%D0%9B%D0%BE%D1%81-%D0%90%D0%BD%D0%B4%D0%B6%D0%B5%D0%BB%D0%B5%D1%81,+%D0%9A%D0%B0%D0%BB%D0%B8%D1%84%D0%BE%D1%80%D0%BD%D0%B8%D1%8F,+%D0%A1%D0%A8%D0%90/@33.7911232,-118.2172251,13z/data=!4m2!3m1!1s0x80c2c75ddc27da13:0xe22fdf6f254608f4);
+                //     width: 100%;
+                //     height: 100%;
+                //     z-index: 5;
+                //     background-size: inherit;
+                // }
+            }
+        }
+    }
+
+    .social {
+        min-height: 305px;
+        margin-top: 92px;
+        background-color: #262b2e;
+
+        h4 {
+            padding-top: 93px;
+            text-align: center;
+            @include Font(16px, 400, #d4d5d5);
+            font-family: $fRale;
+            text-transform: uppercase;
+            margin: 0;
+        }
+
+        p {
+            text-align: center;
+            font-family: $fRale;
+            @include Font(16px, 400, #969798);
+            margin-top: 40px;
+        }
+
+        .Social-Link-copy {
+            display: flex;
+            justify-content: center;
+            margin: 5px;
+
+            .Pinterest {
+                margin: 5px;
+                width: 44px;
+                height: 40px;
+                background-color: #424648;
+                background-image: url(/image/footer/pinterest.png);
+                background-repeat: no-repeat;
+                background-position: center;
+
+                a {
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .Pinterest:hover {
+                background-color: red;
+                opacity: 0.8;
+                filter: invert(1);
+            }
+
+            .dribbble {
+                margin: 5px;
+                width: 44px;
+                height: 40px;
+                background-color: #424648;
+                background-image: url(/image/footer/dribbble.png);
+                background-repeat: no-repeat;
+                background-position: center;
+
+                a {
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .dribbble:hover {
+                background-color: red;
+                opacity: 0.8;
+                filter: invert(1);
+            }
+
+            .Twitter {
+                margin: 5px;
+                width: 44px;
+                height: 40px;
+                background-color: #424648;
+                background-image: url(/image/footer/twitter.png);
+                background-repeat: no-repeat;
+                background-position: center;
+
+                a {
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .Twitter:hover {
+                background-color: red;
+                opacity: 0.8;
+                filter: invert(1);
+            }
+
+            .Facebook {
+                margin: 5px;
+                width: 44px;
+                height: 40px;
+                background-color: #424648;
+                background-image: url(/image/footer/facebook.png);
+                background-repeat: no-repeat;
+                background-position: center;
+
+                a {
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .Facebook:hover {
+                background-color: red;
+                opacity: 0.8;
+                filter: invert(1);
+                ;
+            }
+        }
+    }
+}
+
+@media(max-width:1200px) {
+    footer .contact .shell {
+        justify-content: center;
+        padding-top: 55px;
+    }
+
+    footer .contact {
+        background-size: cover;
+        background-position: center;
+    }
+
+    footer .contact .shell .message {
+        width: 714px;
+    }
+
+    footer .contact .shell .map_address {
+        width: 714px;
+    }
+}
+
+@media(max-width:768px) {
+    footer .contact .shell .message {
+        width: 95%;
+        margin: 10px;
+    }
+
+    footer .contact .shell .message input {
+        max-width: 95%;
+    }
+
+    footer .contact .shell .message textarea {
+        max-width: 95%;
+    }
+
+    footer .contact .shell .map_address {
+        width: 95%;
+        margin: 10px;
+    }
+
+    footer .contact .shell .map_address .map img {
+        width: 95%;
+    }
+}

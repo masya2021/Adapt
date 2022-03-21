@@ -1,0 +1,48 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1440px;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+header {
+    min-height: 805px;
+}
+
+.show {
+    display: block !important;
+}
+
+.about_us {
+    min-height: 985px;
+}
+
+.works {
+    min-height: 1165px;
+}
+
+.most-service {
+    min-height: 1618px;
+}
+
+.team-part {
+    min-height: 1314px;
+}
+
+.testimonial {
+    min-height: 923px;
+}
+
+.logo {
+    min-height: 387px;
+}
+
+footer {
+    min-height: 100vh;
+}
